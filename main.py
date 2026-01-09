@@ -103,6 +103,6 @@ elif FORMAT == "txt":
                 line += f" [reactions: {', '.join(m['reactions'])}]"
             if m["attachments"]:
                 line += f" [files: {', '.join(m['attachments'])}]"
-            f.write(line + "\n\n")
+            f.write(line + "\n")
 
 print("ready:", OUTPUT_FILE)
