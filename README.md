@@ -12,11 +12,11 @@
 `-> Run python script`
 Past Discord Token, Channel ID and enter format(txt, json)
 
-`txt Example` ```
-[2026-01-09T18:41:12.000Z] UserA: Hello
-[2026-01-09T18:41:40.000Z] UserB: How are you?
-  ↳ reply to: Hello
-  [reactions: 👍×2]```
+`txt Example` 
+* [2026-01-09T18:41:12.000Z] UserA: Hello
+* [2026-01-09T18:41:40.000Z] UserB: How are you?
+*   ↳ reply to: Hello
+*   [reactions: 👍×2]
 
 `JSON includes`
 timestamp, author, content, reply text (if exists), reactions, mentions, attachment URLs
